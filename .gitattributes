@@ -1,0 +1,11 @@
+# Exclude classic ASP and ASP.NET files from language statistics
+*.asp linguist-detectable=false
+*.aspx linguist-detectable=false
+*.ascx linguist-detectable=false
+
+# If you're using C#, HTML, Razor, etc., force the language if needed:
+# For example, treat .cshtml files as Razor
+*.cshtml linguist-language=Razor
+
+# Force entire project to be classified as C#
+* linguist-language=C#
